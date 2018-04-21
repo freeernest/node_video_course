@@ -1,0 +1,32 @@
+{
+  "name": "erik_feigin",
+  "version": "1.0.0",
+  "description": "Erik Feigin Personal Site",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "test"
+  },
+  "keywords": [
+    "personal",
+    "page"
+  ],
+  "author": "Erik Feigin",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-node": "^6.0.1",
+    "nodemon": "^1.17.3"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "ejs": "^2.5.9",
+    "express": "^4.16.3"
+  }
+}
